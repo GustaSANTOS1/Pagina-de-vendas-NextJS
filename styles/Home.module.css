@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #363636
 }
 
 .title a {
@@ -19,22 +20,123 @@
 }
 
 .title {
-  margin: 0 0 1rem;
+  /* margin: 0 0 1rem; */
   line-height: 1.15;
   font-size: 3.6rem;
 }
 
 .title {
   text-align: center;
+  font-size: 18px;
 }
 
 .title,
 .description {
   text-align: center;
 }
-.subtitle {
-  text-transform:uppercase;
+
+.banner {
+  background-image: url("../public/grafico.avif");
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+
 }
+
+.banner h1 {
+  vertical-align: middle;
+  margin-top: 15%;
+
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.solucao {
+  text-align: left;
+  max-width: 800px;
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: #808080;
+  margin: 25px;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  .solucao {
+    display: flex;
+    gap: 20px;
+  }
+  .solucao
+   p{
+    max-width: 400px;
+  }
+}
+
+
+.elementos {
+  text-align: left;
+  max-width: 1200px;
+  font-size: 12px;
+  padding: 10px 5px;
+  background-color: #87CEEB;
+  border-radius: 19px;
+  margin-bottom: 20px;
+ 
+   
+
+}
+
+.diferenciacao {
+  text-align: left;
+  max-width: 1200px;
+  font-size: 12px;
+  padding: 10px 5px;
+  background-color: #87CEEB;
+  border-radius: 19px;
+  margin-bottom: 20px;
+
+
+}
+
+.chamada {
+  text-align: left;
+  max-width: 1200px;
+  font-size: 12px;
+  padding: 10px 5px;
+  background-color: #87CEEB;
+  border-radius: 19px;
+
+
+}
+
+.depoimentos {
+  text-align: left;
+  max-width: 1200px;
+  font-size: 12px;
+  padding: 10px 5px;
+  background-color: #ecececc9;
+  border-radius: 19px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.button {
+  background-color: whitesmoke;
+  border-radius: 50px;
+
+}
+
+.grafico {
+  height: 80px;
+}
+
+
 
 
 .description {
@@ -48,7 +150,7 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  max-width: 800px;
+  max-width: 1200px;
   margin-top: 3rem;
 }
 
@@ -91,4 +193,23 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.conversaoC {
+  height: 20vh;
+  width: 35vh;
+  border-radius: 12px;
+
+}
+.imageX img {
+  height: 25vh;
+  width: 35vw;
+  border-radius: 12px;
+}
+.solucao img{
+  text-align: center; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 20vh;
+  border-radius: 12px;
 }

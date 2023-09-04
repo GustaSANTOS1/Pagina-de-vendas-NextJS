@@ -6,67 +6,131 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Pagina de Vendas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-        Impulsione suas vendas com páginas de vendas poderosas e eficazes!
-        </h1>
-        <Image src='/vercel.svg' 
-        width={500} 
-        height={500}/>
+
+        <div className={styles.banner}>
+
+          <h1 className={styles.title}>
+            Impulsione suas vendas com páginas de vendas poderosas e eficazes!
+
+          </h1>
+
+
+
+
+
+        </div>
         <div classname={styles.subtitle}>
           <p>
-          <strong>Aumente suas conversões e impulsione seus negócios com as melhores páginas de vendas do mercado</strong>
+            <strong>Aumente suas conversões e impulsione seus negócios com as melhores páginas de vendas do mercado</strong>
 
           </p>
+          <div>
+
+          </div>
         </div>
 
-        <p className={styles.description}>
+        <div className={styles.solucao}>
+          <p>
+            <strong> Você está cansado de ver suas oportunidades de venda escorregarem entre os dedos? Não perca mais tempo!</strong><br/>
+            Nossa equipe de especialistas em marketing digital desenvolveu as páginas de vendas mais eficazes e atraentes que vão alavancar seus resultados.
+
+          </p>
+          <p>
+            
+          </p>
+
+          <img src='/aumento.jpg' alt="grafico" />
+
+        </div>
+
+
+        <div className={[styles.elementos,styles.coluna]}>
+
+          <p>
+
+            <strong> Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível.</strong>
+
+          </p>
+          <p>
+            <strong> Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.</strong>
+
+          </p>
+
+          <img className={styles.conversaoC} src="/coversao.jpg" alt="conversaoC"></img> 
+          
+          </div>
+
+          
         
 
-Você está cansado de ver suas oportunidades de venda escorregarem entre os dedos? Não perca mais tempo! Nossa equipe de especialistas em marketing digital desenvolveu as páginas de vendas mais eficazes e atraentes que vão alavancar seus resultados.
+          
+         
+          
 
-Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível. Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.
+        
 
-Não importa o tipo de produto ou serviço que você ofereça, nossas páginas de vendas personalizadas são feitas sob medida para o seu negócio. Desde a construção de landing pages impressionantes até o desenvolvimento de textos persuasivos, lidamos com todos os detalhes para garantir que o seu negócio se destaque da concorrência.
 
-Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.
 
-Entre em contato agora mesmo e descubra como podemos transformar sua presença online em vendas reais! <code>pages/index.js</code>
-        </p>
+        <div className={styles.diferenciacao}>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <p>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <strong> Não importa o tipo de produto ou serviço que você ofereça, nossas páginas de vendas personalizadas são feitas sob medida para o seu negócio.</strong>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          </p>
+          <p>
+            <strong>Desde a construção de landing pages impressionantes até o desenvolvimento de textos persuasivos, lidamos com todos os detalhes para garantir que o seu negócio se destaque da concorrência.</strong>
+
+          </p>
+
+          
+
+
         </div>
+
+        <div className={styles.imageX}>
+
+        <img src="/marcaR.jpg" alt="marcaregistrada"></img>
+
+        </div>
+
+        <div className={styles.chamada}>
+
+          <p>
+
+            <strong>Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.</strong>
+          </p>
+
+
+
+
+
+        </div>
+
+        <div className={styles.depoimentos}>
+          <strong>Entre em contato agora mesmo e descubra como podemos transformar sua presença online em vendas reais!</strong>
+
+        </div>
+
+        <div className={styles.button}>
+
+
+          <a href='https://contate.me/paginasdvendas' target="_blank" title="whatsapp">  <button className='button'>Clique Aqui</button> </a>
+
+
+
+
+
+        </div>
+
+
+
       </main>
 
       <footer>
@@ -75,8 +139,9 @@ Entre em contato agora mesmo e descubra como podemos transformar sua presença o
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+
+          Powered by{'  GustaSANTOS1'}
+        
         </a>
       </footer>
 
@@ -133,3 +198,5 @@ Entre em contato agora mesmo e descubra como podemos transformar sua presença o
     </div>
   )
 }
+
+  
