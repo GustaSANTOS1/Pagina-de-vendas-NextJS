@@ -16,7 +16,6 @@ export default function Home() {
 
           <h1 className={styles.title}>
             Impulsione suas vendas com páginas de vendas poderosas e eficazes!
-
           </h1>
 
 
@@ -34,7 +33,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.solucao}>
+        <div className={`${styles.coluna} ${styles.solucao}`}>
           <p>
             <strong> Você está cansado de ver suas oportunidades de venda escorregarem entre os dedos? Não perca mais tempo!</strong><br/>
             Nossa equipe de especialistas em marketing digital desenvolveu as páginas de vendas mais eficazes e atraentes que vão alavancar seus resultados.
@@ -49,62 +48,43 @@ export default function Home() {
         </div>
 
 
-        <div className={[styles.elementos,styles.coluna]}>
+        <div className={styles.coluna}>
 
           <p>
 
-            <strong> Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível.</strong>
-
+            <strong> Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível.</strong><br/>
+            <span> Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.</span>  
           </p>
-          <p>
-            <strong> Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.</strong>
-
-          </p>
-
-          <img className={styles.conversaoC} src="/coversao.jpg" alt="conversaoC"></img> 
+          
+            
+          <img className={[styles.conversaoC]} src="/coversao.jpg" alt="conversaoC"></img> 
           
           </div>
-
-          
         
 
-          
-         
-          
-
-        
-
-
-
-        <div className={styles.diferenciacao}>
+        <div className={`${styles.diferenciacao} ${styles.coluna}`}>
 
           <p>
 
 
-            <strong> Não importa o tipo de produto ou serviço que você ofereça, nossas páginas de vendas personalizadas são feitas sob medida para o seu negócio.</strong>
+            <strong><span> Não importa o tipo de produto ou serviço que você ofereça, nossas páginas de vendas personalizadas são feitas sob medida para o seu negócio.</span></strong>
 
           </p>
           <p>
-            <strong>Desde a construção de landing pages impressionantes até o desenvolvimento de textos persuasivos, lidamos com todos os detalhes para garantir que o seu negócio se destaque da concorrência.</strong>
+            Desde a construção de landing pages impressionantes até o desenvolvimento de textos persuasivos, lidamos com todos os detalhes para garantir que o seu negócio se destaque da concorrência.
 
           </p>
 
-          
+          <img src="/marcaR.jpg" alt="marcaregistrada"></img>
 
+          </div>
+       
 
-        </div>
-
-        <div className={styles.imageX}>
-
-        <img src="/marcaR.jpg" alt="marcaregistrada"></img>
-
-        </div>
-
-        <div className={styles.chamada}>
+        <div className={[styles.chamada,styles.coluna]}>
 
           <p>
 
-            <strong>Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.</strong>
+            <strong>Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.</strong><br/>
           </p>
 
 
@@ -113,12 +93,12 @@ export default function Home() {
 
         </div>
 
-        <div className={styles.depoimentos}>
-          <strong>Entre em contato agora mesmo e descubra como podemos transformar sua presença online em vendas reais!</strong>
+        <div className={[styles.depoimentos,styles.coluna]}>
+          <strong>Entre em contato agora mesmo clicando em "Clique aqui" e descubra como podemos transformar sua presença online em vendas reais!</strong>
 
         </div>
 
-        <div className={styles.button}>
+        <div className={[styles.button,styles.coluna]}>
 
 
           <a href='https://contate.me/paginasdvendas' target="_blank" title="whatsapp">  <button className='button'>Clique Aqui</button> </a>
