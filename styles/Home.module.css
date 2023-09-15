@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #363636
+  background-color: #1E90FF
 }
 
 .title a {
@@ -40,9 +40,8 @@
   width: 100vw;
   height: 80vh;
   background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
-  
+  background-position:center;
+    
 
 
 }
@@ -68,10 +67,15 @@
     max-width: 1200px;
     gap: 20px;
     margin-top: 20px;
-    background-color: #808080;
+    background-color: rgb(219, 219, 219);
     border-radius: 24px;  
     padding: 0px   125px;
     
+    
+  }
+  .coluna:hover {
+    background-color: #FFD700;
+
   }
   .coluna p {
     max-width: 50%;
@@ -102,7 +106,7 @@
   max-width: 1200px;
   font-size: 16px;
   padding: 10px 5px;
-  background-color: #87CEEB;
+  background-color: #9a9a9a;
   border-radius: 19px;
   margin-bottom: 20px;
 
@@ -113,9 +117,33 @@
   width: 300px;
 
 }
-.feedbcks{
+.pagesale {
+ background-color:#1C1C1C!important;
+ border-radius: 15px;
+ 
+}
+.centralizar{
   text-align: center;
 }
+ 
+
+.pagesale a img:hover{
+  transform: scale(1.15);
+}
+
+.pagesale a img{
+  transition: 1s;
+}
+.feedbacks{
+  background-color: #A9A9A9!important;
+}
+
+
+.feedbacks h1{
+  text-align: center;
+  
+}
+
 
 .chamada {
   text-align: left;

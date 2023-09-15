@@ -25,45 +25,59 @@ export default function Home() {
         <div className={`${styles.coluna} ${styles.solucao}`}>
           <p>
             <strong> Você está cansado de ver suas oportunidades de venda escorregarem entre os dedos? Não perca mais tempo!</strong>
-            Nossa equipe de especialistas em marketing digital desenvolveu as páginas de vendas mais eficazes e atraentes que vão alavancar seus resultados. <br/>
+            Nossa equipe de especialistas em marketing digital desenvolveu as páginas de vendas mais eficazes e atraentes que vão alavancar seus resultados. <br />
           </p>
           <img src='/aumento.jpg' alt="grafico" />
         </div>
         <div className={styles.coluna}>
           <p>
-            <strong><span> Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível.</span></strong><br/>
-            <span> Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.</span>  
+            <strong><span> Nossas páginas de vendas são cuidadosamente projetadas para capturar a atenção do seu público-alvo e guiá-los em um processo de compra irresistível.</span></strong><br />
+            <span> Com elementos estratégicos de persuasão e chamadas de ação convincentes, nossa copy cria uma experiência de compra envolvente, aumentando drasticamente suas taxas de conversão.</span>
           </p>
           <img className={[styles.conversaoC]} src="/coversao.jpg" alt="conversaoC"></img>
-          </div>
+        </div>
         <div className={`${styles.diferenciacao} ${styles.coluna}`}>
           <p>
             <strong>Não importa o tipo de produto ou serviço que você ofereça, nossas páginas de vendas personalizadas são feitas sob medida para o seu negócio.</strong><br />
             <span> Desde a construção de landing pages impressionantes até o desenvolvimento de textos persuasivos, lidamos com todos os detalhes para garantir que o seu negócio se destaque da concorrência.</span>
           </p>
-         
+
           <img src="/marcaR.jpg" alt="marcaregistrada"></img>
-          </div>
-          <div className='feedbacks'>
-            <h1>FEEDBECKS</h1>
-            <video width="640" height="360" controls>
-          <source src='/lead.mp4' alt='feedbacks'></source>
+        </div>
+        <div className={styles.pagesale}>
+
+        <h1 className={styles.centralizar}>PAGINAS DE VENDAS</h1>
+       <a href='#'>
+       
+       <img src='/paginas.png' alt='paginasvendas'></img>
+       </a>
+
+        </div>
+
+
+
+
+
+        <div className={styles.feedbacks}>
+          <h1 className={styles.centralizar}>FEEDBECKS</h1>
+          <video width="640" height="360" controls>
+            <source src='/lead.mp4' alt='feedbacks'></source>
           </video>
 
 
-          </div>
-        <div className={[styles.chamada,styles.coluna]}>
+        </div>
+        <div className={[styles.chamada, styles.coluna]}>
           <p>
-            <strong>Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.</strong><br/>
+            <strong>Não perca mais tempo e dinheiro com páginas de vendas genéricas! Aumente seu ROI e conquiste mais clientes hoje mesmo com nossas páginas de vendas de alta performance.</strong><br />
           </p>
         </div>
-        <div className={[styles.depoimentos,styles.coluna]}>
+        <div className={[styles.depoimentos, styles.coluna]}>
           <strong>Entre em contato agora mesmo clicando em "Clique aqui" e descubra como podemos transformar sua presença online em vendas reais!</strong>
         </div>
-        <div className={[styles.button,styles.coluna]}>
+        <div className={[styles.button, styles.coluna]}>
 
-          <a href='https://contate.me/paginasdvendas' target="_blank" title="whatsapp">  
-          <img src='/Clique.png' alt='clique aqui'></img>
+          <a href='https://contate.me/paginasdvendas' target="_blank" title="whatsapp">
+            <img src='/Clique.png' alt='clique aqui'></img>
           </a>
         </div>
       </main>
@@ -76,7 +90,7 @@ export default function Home() {
         >
 
           Powered by{'  GustaSANTOS1'}
-        
+
         </a>
       </footer>
 
@@ -134,4 +148,4 @@ export default function Home() {
   )
 }
 
-  
+
