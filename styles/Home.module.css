@@ -1,11 +1,13 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 1 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1E90FF
+  background-color:#D2691E;
+  
+
 }
 
 .title a {
@@ -36,24 +38,23 @@
 }
 
 .banner {
-  background-image: url("../public/grafico.avif");
+  background-image: url("../public/banner.png");
   width: 100vw;
   height: 80vh;
   background-repeat: no-repeat;
   background-position:center;
+  padding: 20px;
+  
     
 
 
 }
 
-.banner h1 {
-  vertical-align: middle;
-  margin-top: 15%;
 
-}
 
 .subtitle {
   text-transform: uppercase;
+  
 }
 
 .solucao {
@@ -74,7 +75,7 @@
     
   }
   .coluna:hover {
-    background-color: #FFD700;
+    background-color: #0000006e;
 
   }
   .coluna p {
@@ -112,9 +113,11 @@
 
   
 }
+
 .diferenciacao img{
   height: 175px;
   width: 300px;
+
 
 }
 .pagesale {
@@ -135,12 +138,15 @@
   transition: 1s;
 }
 .feedbacks{
-  background-color: #A9A9A9!important;
+  background-color: #000000!important;
+  border-radius: 12px;
+  
 }
 
 
 .feedbacks h1{
   text-align: center;
+  color: white;
   
 }
 
@@ -248,6 +254,7 @@
   width: 35vh;
   border-radius: 12px;
   margin-right: 12px;
+  animation-direction: rightto;
 
 
 }

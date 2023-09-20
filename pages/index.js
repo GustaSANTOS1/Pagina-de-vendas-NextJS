@@ -8,13 +8,12 @@ export default function Home() {
       <Head>
         <title>Pagina de Vendas</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=0,8.0"></meta>
+
       </Head>
 
       <main>
         <div className={styles.banner}>
-          <h1 className={styles.title}>
-            Impulsione suas vendas com páginas de vendas poderosas e eficazes!
-          </h1>
         </div>
         <div classname={styles.subtitle}>
           <p>
@@ -46,11 +45,11 @@ export default function Home() {
         </div>
         <div className={styles.pagesale}>
 
-        <h1 className={styles.centralizar}>PAGINAS DE VENDAS</h1>
-       <a href='#'>
-       
-       <img src='/paginas.png' alt='paginasvendas'></img>
-       </a>
+          <h1 className={styles.centralizar}>PAGINAS DE VENDAS</h1>
+          <a href='#'>
+
+            <img src='/paginas.png' alt='paginasvendas'></img>
+          </a>
 
         </div>
 
@@ -59,10 +58,23 @@ export default function Home() {
 
 
         <div className={styles.feedbacks}>
-          <h1 className={styles.centralizar}>FEEDBECKS</h1>
-          <video width="640" height="360" controls>
+          <h1 className={styles.centralizar}>FEEDBECKS 1</h1>
+          <video width="630" height="300" controls>
             <source src='/lead.mp4' alt='feedbacks'></source>
           </video>
+
+
+        </div>
+        <div className={styles.feedbacks2}>
+
+
+
+
+
+        </div>
+
+        <div className={styles.feedbacks3}>
+
 
 
         </div>
