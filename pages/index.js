@@ -14,6 +14,7 @@ export default function Home() {
 
       <main>
         <div className={styles.banner}>
+          
         </div>
         <div classname={styles.subtitle}>
           <p>
